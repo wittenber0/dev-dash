@@ -1,16 +1,16 @@
 # Dashboard Project
 
-A Next.js 14+ status dashboard that surfaces goals and task data from the [dev-system](https://github.com/dev-system/dev-system) repository. It combines shared layout/navigation, API routes, and client pages so you can keep tabs on priorities without leaving the repo.
+A Next.js 14+ dashboard that surfaces goals and task data sourced from the [dev-system](https://github.com/dev-system/dev-system) repository. The app pairs API routes, shared layout/navigation, and responsive cards to help teams track open goals and live task status.
 
 ## Prerequisites
 
 - **Node.js 20+**
 - **npm 10+** (bundled with Node 20)
-- Read access to the `dev-system` GitHub repository
-- A GitHub personal access token with enough scope to read repository contents (e.g., `repo` / `repo:status`)
+- A GitHub personal access token with read access to `dev-system` (`repo`, `repo:status`, or equivalent)
+- Access to the repository to read `STATUS.yml` and `goals/open/*.yml`
 
 ## Installation
 
-1. Clone the repository (or use the provided workspace):
+1. Clone the repo (the workspace already provides this step):
 
    
